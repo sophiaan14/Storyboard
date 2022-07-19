@@ -74,6 +74,9 @@ to Europe!</string>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Click to learn fun fact #3 "/>
                                 <connections>
+                                    <action selector="Button2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Xct-GT-mK8"/>
+                                    <action selector="Button3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lUN-4f-vrw"/>
+                                    <action selector="Label3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6e3-9c-EV6"/>
                                     <action selector="button3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MAC-2w-57F"/>
                                 </connections>
                             </button>
@@ -100,16 +103,8 @@ to Europe!</string>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Click to see my favorite hobby!"/>
                                 <connections>
+                                    <action selector="Button1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UeR-Ml-0lj"/>
                                     <action selector="button1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2sm-BG-zxu"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qI2-Yl-rFR">
-                                <rect key="frame" x="171" y="379" width="67" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
-                                <connections>
-                                    <action selector="button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HLr-HS-8Eb"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -136,12 +131,16 @@ to Europe!</string>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="FunFactLabel" destination="a0h-qq-sJ2" id="U0b-VA-Hlo"/>
+                        <outlet property="FunFactText1" destination="hPD-Pl-ewN" id="zJ3-zc-oZ8"/>
+                        <outlet property="FunFactText2" destination="5yd-al-yaF" id="p09-E2-KvN"/>
+                        <outlet property="HobbyTextBox" destination="v5G-kO-KcX" id="wsj-Fm-3Rj"/>
+                        <outlet property="Label2" destination="hPD-Pl-ewN" id="fx6-8g-Vng"/>
+                        <outlet property="Name" destination="MbS-l4-mqr" id="VxR-QL-zbg"/>
                         <outlet property="captionLabel" destination="a0h-qq-sJ2" id="5kj-vU-7ki"/>
                         <outlet property="funFact1" destination="8bC-Xf-vdC" id="9lL-TY-bZH"/>
                         <outlet property="funFact2" destination="hPD-Pl-ewN" id="vvt-9w-kfs"/>
                         <outlet property="funFact3" destination="5yd-al-yaF" id="cq1-PU-xNd"/>
-                        <outlet property="funFactText1" destination="a0h-qq-sJ2" id="obg-pa-mMz"/>
-                        <outlet property="funFactText2" destination="vJt-ek-nLk" id="V2i-uw-eg6"/>
                         <outlet property="nameLabel" destination="MbS-l4-mqr" id="hZU-sH-w1Q"/>
                     </connections>
                 </viewController>

@@ -1,0 +1,30 @@
+
+/* Class = "UILabel"; text = "My dream vacation is a trip to Europe  \nto Europe!"; ObjectID = "5yd-al-yaF"; */
+"5yd-al-yaF.text" = "My dream vacation is a trip to Europe  \nto Europe!";
+
+/* Class = "UILabel"; text = "Sophia An "; ObjectID = "MbS-l4-mqr"; */
+"MbS-l4-mqr.text" = "Sophia An ";
+
+/* Class = "UIButton"; configuration.title = "Click to learn fun fact #2"; ObjectID = "gqt-Jr-ghG"; */
+"gqt-Jr-ghG.configuration.title" = "Click to learn fun fact #2";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "gqt-Jr-ghG"; */
+"gqt-Jr-ghG.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "I have a dog named Kona "; ObjectID = "hPD-Pl-ewN"; */
+"hPD-Pl-ewN.text" = "I have a dog named Kona ";
+
+/* Class = "UIButton"; configuration.title = "Click to learn fun fact #3 "; ObjectID = "rxo-0T-4nl"; */
+"rxo-0T-4nl.configuration.title" = "Click to learn fun fact #3 ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "rxo-0T-4nl"; */
+"rxo-0T-4nl.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "Click to see my favorite hobby!"; ObjectID = "v5G-kO-KcX"; */
+"v5G-kO-KcX.configuration.title" = "Click to see my favorite hobby!";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "v5G-kO-KcX"; */
+"v5G-kO-KcX.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Cooking + Baking "; ObjectID = "vJt-ek-nLk"; */
+"vJt-ek-nLk.text" = "Cooking + Baking ";
